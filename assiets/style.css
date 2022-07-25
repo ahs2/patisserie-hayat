@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+.foot1 {
+  background-color: #dfccb3 !important;
+}
+
+.foot1 a {
+  text-decoration: none;
+}
+
+.foot2 {
+  background-color: #b99e7b !important;
+}
+
+.orange {
+  color: #ff7301;
+}
+
+.btn-orange {
+  display: block;
+  text-align: center;
+  padding: 15px auto;
+  font-size: 17px;
+  background-color: #f4874b;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 5px 2px 8px 1px #00000080;
+}
+
+.btn-orange:hover {
+  width: 300px;
+  border: 1px solid #e77f47;
+  background-color: transparent;
+  color: #e4783d;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-orange {
+    display: block;
+    text-align: center;
+    padding: 11px auto;
+    font-size: 12px;
+    background-color: #f4874b;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 5px 2px 8px 1px #00000080;
+    width: 200px;
+  }
+  .btn-orange:hover {
+    border: 1px solid #e77f47;
+    background-color: transparent;
+    color: #e4783d;
+  }
+}
+
+.fond {
+  background-image: url(../images/i.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.social {
+  color: #fff;
+}
+.whats:hover {
+  color: #01ff01;
+}
+.twitt:hover {
+  color: #01afff;
+}
+.yout:hover {
+  color: #ff1201;
+}
+.insta:hover {
+  color: #cd620b;
+}
+.linkd:hover {
+  color: #4e4eeb;
+}
+.faceb:hover {
+  color: #0000ff;
+}
+.insta:hover {
+  color: #ca0ba7;
+}

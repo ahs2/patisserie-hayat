@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assiets/style.css">
+    <title>Patisserie Hayat</title>
+</head>
+
+<body>
+    <!--Barre de navigation -->
+
+    <header class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Patisserie <span class="orange">Hayat</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav"
+                aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobileNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categorie">Catégorie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#temoignage">Témoignage</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex mx-3">
+                    <input class="form-control me-2" type="text" placeholder="Recherche" aria-label="Search"
+                        style="border-radius: 50px !important;">
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li lass="nav-item">
+                        <i class="fa fa-cart-plus nav-link"></i>
+                    </li>
+                    <li lass="nav-item">
+                        <i class="fa fa-heart nav-link"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Slider-->
+        <div id="hayatSlide" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#hayatSlide" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+            </div>
+            <div class="carousel-inner" style="height: 70vh !important;">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="images/acc.jpg" class="d-block w-100 img-fluid" alt="acc">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/patisserie.jpg" class="d-block w-100 img-fluid" alt="patisserie">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="images/b.jpg" class="d-block w-100 img-fluid" alt="b">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/9.jpeg" class="d-block w-100 img-fluid" alt="9">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/15.jpg" class="d-block w-100 img-fluid" alt="15">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/d.jpg" class="d-block w-100 img-fluid" alt="d">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/b.jpg" class="d-block w-100 img-fluid" alt="b">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hayatSlide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hayatSlide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Partie Commander -->
+        <div class="jumbotron text-center">
+            <h1 class="orange fw-bold">Hayat</h1>
+            <h1>La patisserie qui a le gout de la difference!!!</h1>
+
+            <button type="button" class="btn btn-orange mx-auto">LANCER UNE
+                COMMENDE</button>
+        </div>
+
+        <!-- Partie Categorie-->
+        <div id="categorie" class="jumbotron text-center bg-light mt-4 py-4">
+            <h1 class="fw-bold"><span class="orange">C</span>ategorie</h1>
+            <p>Nous disposons des produits suivants</p>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col shadow-lg ">
+                        <div class="card h-100 border-warning border-4">
+                            <img src="images/1.jpg" class="card-img-top" alt="Gateau">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Gateaux</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="pages/gateaux.html" class="btn btn-dark w-100">Voir plus</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="card h-100 border-warning border-4">
+                            <img src="images/15.jpg" class="card-img-top" alt="Croissants">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Croissants</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional
+                                    content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="pages/croissants.html" class="btn btn-dark w-100">Voir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col shadow-lg">
+                        <div class="card h-100 border-warning border-4">
+                            <img src="images/f.jpg" class="card-img-top" alt="creme">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Crème</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This card has even longer content than the first to show that
+                                    equal
+                                    height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="pages/creme.html" class="btn btn-dark w-100">Voir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="pages/autres.html" class="btn btn-orange mx-auto text-uppercase my-4 w-25">Autres Produits</a>
+
+        </div>
+        <div id=" temoignage" class="cardborder-0 text-center">
+            <img src="images/offre.png" class="w-25 h-25 mx-auto" alt="">
+            <h3 class="fw-bold">A Hayat patisserie, c'est des sucreries plus douces que votre presence !!!</h3>
+        </div>
+
+        <!-- Partie Témoignage-->
+        <div id="temoignage" class="fond text-center p-4">
+            <h1 class="text-light fw-bold">
+                <span class="orange">Q</span>ue <span class="orange">D</span>isent <span class="orange">N</span>os <span
+                    class="orange">C</span>lients
+            </h1>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4 my-auto">
+                    <div class="col">
+                        <div class="card h-100 pt-2">
+                            <img src="images/man.png" class="card-img-top h-25 w-25 rounded-circle mx-auto"
+                                alt="personne">
+                            <div class="card-body">
+                                <h5 class="card-title">Ali Mohamed</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 pt-2">
+                            <img src="images/female-296990_1280.png"
+                                class="card-img-top h-25 w-25 rounded-circle mx-auto" alt="personne">
+                            <div class="card-body">
+                                <h5 class="card-title">Amatallah Saley</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 pt-2">
+                            <img src="images/woman2.png" class="card-img-top h-25 w-25 rounded-circle mx-auto"
+                                alt="personne">
+                            <div class="card-body">
+                                <h5 class="card-title">Ihsane Muhsine</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Contact -->
+        <div id="contact" class="row p-5 bg-light justify-content-between">
+            <div class="col-md-4 col-sm-12">
+                <h1 class="display-md-4 display-sm-5 orange fw-bold">Contactez-nous</h1>
+                <ul class="list-group ">
+                    <li class="list-group-item border-0 bg-transparent">
+                        <i class="fa fa-phone"></i> +227 92 63 26 36 | 74 44 77 22
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <i class="fa fa-envelope"></i> saleygarbaamatallah@gmail.com
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent">
+                        <i class="fa fa-location"></i> Tondobon/Dosso/Niger
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <form class=" text-center">
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nom">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="prenom">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" class="form-control" placeholder="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Bouton pour remonter-->
+        <div>
+            <a href="#navbar"
+                class="position-fixed bottom-0  mb-5 start-50 translate-middle-x nav-link btn btn-secondary p-2 text-light text-center align-items-center rounded-circle">
+                <i class="fa-solid fa-arrow-up h2 m-auto"></i>
+            </a>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-light fw-bold">
+        <div class="row justify-content-evenly foot1 py-2 align-items-center">
+            <div class="col-2">
+                <h3>Patisserie <span class="orange">Hayat</span></h3>
+            </div>
+
+            <div class="col-6 ">
+                <div class="float-end">
+                    <a href="http://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook h3 mx-2 social faceb"></i>
+                    </a>
+
+                    <a href="http://www.whatsapp.com/" target="_blank">
+                        <i class="fa-brands fa-whatsapp h3 mx-2 social whats"></i>
+                    </a>
+
+                    <a href="http://www.twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter h3 mx-2 social twitt"></i>
+                    </a>
+                    <a href="http://www.youtube.com/" target="_blank">
+                        <i class="fa-brands fa-youtube h3 mx-2 social yout"></i>
+                    </a>
+                    <a href="http://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram h3 mx-2 social insta"></i>
+                    </a>
+                    <a href="http://www.linkedin.com/" target="_blank">
+                        <i class="fa-brands fa-linkedin h3 mx-2 social linkd"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-dark text-center align-items-center foot2 py-2">
+            <span>Copyright juillet 2022 </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
